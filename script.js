@@ -3,9 +3,9 @@ function getProfile() {
     const username = document.getElementById('usernameInput').value;
     fetch(`https://api.github.com/users/${username}`)
       
-    
       .then(res => res.json())
       .then(data => {
+       
        
         const profile = document.getElementById('profile-info');
         
@@ -23,7 +23,6 @@ function getProfile() {
 
           `;
           }
-
 
           if (data.login === "ThVbs") {
             profile.innerHTML += '<h1 id="Secret">Este é o perfil do criador desta API</h1>';

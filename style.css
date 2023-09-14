@@ -22,10 +22,13 @@ body{
     margin-top: 3.5rem;
     align-items: center;
     font-size: 20px;
+    background-color: #2C4C59;
+    padding: 5%;
+    border-radius: 20px;
 }
 #OutData{
     font-weight: bold;
-    color: #152bf1;
+    color: #6A95A6;
 }
 #imgurl{
     background-repeat: no-repeat;
@@ -37,7 +40,7 @@ body{
 }
 #Secret{
     margin-top: 5px;
-    color: #b700ff;
+    color: #D9DCDB;
     font-size: 30px;
     align-items: center;
     font-weight: bold
