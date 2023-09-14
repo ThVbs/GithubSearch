@@ -2,12 +2,17 @@ function getProfile() {
     event.preventDefault();
     const username = document.getElementById('usernameInput').value;
     fetch(`https://api.github.com/users/${username}`)
+      
+    
       .then(res => res.json())
       .then(data => {
+       
         const profile = document.getElementById('profile-info');
+        
         if (data.message === 'Not Found') {
           profile.innerHTML = "No profile";
-        } else {
+        } 
+        else {
           const name = data.name ? data.name : 'N/A';
           profile.innerHTML = `
             <img id="imgurl" src="${data.avatar_url}"><br> 
@@ -19,8 +24,11 @@ function getProfile() {
 
           `;
           }
+
+          
           if (data.name === "ThVbs") {
             profile.innerHTML += '<p>Este é o perfil do criador desta API</p>';
+            console.log("Este é o perfil do criador desta API")
           }
       });
   }
