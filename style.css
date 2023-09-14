@@ -1,9 +1,13 @@
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
 body{
     background-image: url(image.jpg);
     background-repeat: no-repeat;
-    background-size: 101%;
-    width: 100%;
+    background-size: 120%;
+    width: 100vw, 100vh;
+    font-family: 'Star Wars', sans-serif;       
 }
+
 .container-fluid {
     display: flex;
     align-items: center;
@@ -36,12 +40,20 @@ body{
 }
 #subname{
     margin-top: 0px;
-    font-size: 15px;
+    font-size: 13px;
+    color: black;
 }
 #Secret{
-    margin-top: 5px;
-    color: #D9DCDB;
+    margin-top: 10px;
+    color: #D1B258;
     font-size: 30px;
     align-items: center;
     font-weight: bold
+}
+#title{
+    margin-top: 30%;
+    color: black;
+}
+#imgurl{
+    margin-left: 29vh;
 }

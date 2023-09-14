@@ -9,3 +9,5 @@
 - Quantidade de usuários que está seguindo;
 --------------------------------------------------------------------------------------------------
 
+# Extra
+- Ao pesquisar um perfil especifico uma mensagem especial aparece na tela
