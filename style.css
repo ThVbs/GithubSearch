@@ -31,3 +31,7 @@ body{
     background-repeat: no-repeat;
     width: 20%;
 }
+#subname{
+    margin-top: 0px;
+    font-size: 15px;
+}

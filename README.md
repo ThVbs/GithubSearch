@@ -7,3 +7,5 @@
 - Quantidade de repositórios;
 - Quantidade de seguidores;
 - Quantidade de usuários que está seguindo;
+
+- Script "secreto" não acabado...
