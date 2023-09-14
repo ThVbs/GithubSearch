@@ -13,10 +13,9 @@ function getProfile() {
           profile.innerHTML = "No profile";
         } 
         else {
-          const name = data.name ? data.name : 'N/A';
           profile.innerHTML = `
             <img id="imgurl" src="${data.avatar_url}"><br> 
-            <span id="OutData">Nome: </span>${name}<br>
+            <span id="OutData">Nome: </span>${data.name}<br>
             <span id="OutData">Nickname: </span> ${data.login}<br>
             <span id="OutData">Quantidade de repositorios:</span> ${data.public_repos}<br>
             <span id="OutData">Seguidores: </span> ${data.followers}<br>
@@ -25,11 +24,12 @@ function getProfile() {
           `;
           }
 
-          
-          if (data.name === "ThVbs") {
-            profile.innerHTML += '<p>Este é o perfil do criador desta API</p>';
-            console.log("Este é o perfil do criador desta API")
+
+          if (data.login === "ThVbs") {
+            profile.innerHTML += '<h1 id="Secret">Este é o perfil do criador desta API</h1>';
           }
       });
   }
+
+
   

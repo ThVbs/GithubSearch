@@ -35,3 +35,10 @@ body{
     margin-top: 0px;
     font-size: 15px;
 }
+#Secret{
+    margin-top: 5px;
+    color: #b700ff;
+    font-size: 30px;
+    align-items: center;
+    font-weight: bold
+}
