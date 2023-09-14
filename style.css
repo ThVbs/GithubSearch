@@ -1,11 +1,11 @@
 @import url('https://fonts.cdnfonts.com/css/star-wars');
 
-body{
+body {
     background-image: url(image.jpg);
     background-repeat: no-repeat;
     background-size: 120%;
     width: 100vw, 100vh;
-    font-family: 'Star Wars', sans-serif;       
+    font-family: 'Star Wars', sans-serif;
 }
 
 .container-fluid {
@@ -15,14 +15,16 @@ body{
     color: #fff;
     margin-top: 4rem;
 }
-.profile-container h1{
+
+.profile-container h1 {
     color: #fff;
     text-align: center;
     font-size: 4rem;
     margin-top: 5.5rem;
     margin-bottom: 3rem;
 }
-.profile-info{
+
+.profile-info {
     margin-top: 3.5rem;
     align-items: center;
     font-size: 20px;
@@ -30,30 +32,36 @@ body{
     padding: 5%;
     border-radius: 20px;
 }
-#OutData{
+
+#OutData {
     font-weight: bold;
     color: #6A95A6;
 }
-#imgurl{
+
+#imgurl {
     background-repeat: no-repeat;
     width: 20%;
 }
-#subname{
+
+#subname {
     margin-top: 0px;
     font-size: 13px;
     color: black;
 }
-#Secret{
+
+#Secret {
     margin-top: 10px;
     color: #D1B258;
     font-size: 30px;
     align-items: center;
     font-weight: bold
 }
-#title{
+
+#title {
     margin-top: 30%;
     color: black;
 }
-#imgurl{
+
+#imgurl {
     margin-left: 29vh;
 }
